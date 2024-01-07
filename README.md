@@ -1,7 +1,11 @@
 # ProgmethMacOS
 setup tool in progmeth Class (For MacOS user) 
 
-To install the latest version of OpenJDK using Homebrew on macOS, follow these steps:
+Todo: 
+1. install OpenJDK (using homebrew , set JAVAHOME)
+2. install IntelliJ IDEA ( install essential plugin ) 
+
+1. To install the latest version of OpenJDK using Homebrew on macOS, follow these steps:
 
 ### Step 1: Open Terminal
 - You can find the Terminal in the Utilities folder within your Applications folder, or use Spotlight Search (`Cmd + Space`) to find it.
@@ -51,5 +55,11 @@ To install the latest version of OpenJDK using Homebrew on macOS, follow these s
    ```
 
 Now, OpenJDK is successfully installed on your macOS system using Homebrew. You can use it for your Java development needs.
+
+2. install IntelliJ IDEA ( using powerpoint in mycourseville as guideline)
+-- you need to install
+``` bash
+brew install graphviz
+```
 
 
