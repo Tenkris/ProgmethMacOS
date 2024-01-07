@@ -43,7 +43,7 @@ To install the latest version of OpenJDK using Homebrew on macOS, follow these s
    echo 'export JAVA_HOME="/usr/local/opt/openjdk"' >> ~/.zshrc
    ```
 
-   This command appends the `export JAVA_HOME="/usr/local/opt/openjdk"` line to your `.zshrc` file.
+   This command appends the `export JAVA_HOME="/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home"` line to your `.zshrc` file.
 
 ### Step7 : To apply the changes made to the `.zshrc` file, either restart your terminal or run the following command:
    ```bash
