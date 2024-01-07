@@ -57,7 +57,7 @@ Todo:
 Now, OpenJDK is successfully installed on your macOS system using Homebrew. You can use it for your Java development needs.
 
 2. install IntelliJ IDEA ( using powerpoint in mycourseville as guideline)
--- you need to install
+-- you need to install graphviz to fix problem to generate uml diagram
 ``` bash
 brew install graphviz
 ```
