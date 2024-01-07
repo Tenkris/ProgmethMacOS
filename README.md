@@ -38,16 +38,18 @@ To install the latest version of OpenJDK using Homebrew on macOS, follow these s
   ```
 
   This command will display the installed version of OpenJDK.
+### Step6 : Optionally, you can set the `JAVA_HOME` environment variable to point to the OpenJDK installation directory. This step is useful if you want to use OpenJDK with other tools or frameworks that rely on the `JAVA_HOME` variable. To set the `JAVA_HOME` variable, run the following command:
+   ```bash
+   echo 'export JAVA_HOME="/usr/local/opt/openjdk"' >> ~/.zshrc
+   ```
 
-### Step 6: Set JAVA_HOME Environment Variable (Optional but Recommended)
-- Some applications require the `JAVA_HOME` environment variable. You can set this by adding the following line to your shell configuration file (like `.bash_profile`, `.zshrc`, etc.):
+   This command appends the `export JAVA_HOME="/usr/local/opt/openjdk"` line to your `.zshrc` file.
 
-  ```bash
-  export JAVA_HOME=`/usr/libexec/java_home -v [installed_version]`
-  ```
+### Step7 : To apply the changes made to the `.zshrc` file, either restart your terminal or run the following command:
+   ```bash
+   source ~/.zshrc
+   ```
 
-  Replace `[installed_version]` with the version number of Java you installed. For example, if you installed Java 17, you would use `-v 17`. If you just want the default version, you can leave out the `-v` flag.
+Now, OpenJDK is successfully installed on your macOS system using Homebrew. You can use it for your Java development needs.
 
-- After editing your shell configuration file, apply the changes by running `source ~/.bash_profile` or `source ~/.zshrc`, depending on your shell.
 
-By following these steps, you will have successfully installed the latest version of OpenJDK on your macOS system using Homebrew, and optionally set up the `JAVA_HOME` environment variable.
